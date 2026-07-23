@@ -180,7 +180,7 @@ HERO SECTION
 
 .hero{
 
-    height:100v;
+    height:100dvh;
     margin-top:75px;
 
     display:flex;
