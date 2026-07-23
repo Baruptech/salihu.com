@@ -353,7 +353,12 @@ HERO SECTION
 
 @media(max-width:768px){
 
+.hero{
+   height:70vh;
+    margin-top:15px;
+text-align:center;
 
+}
 
 .hero-text{
 
@@ -937,7 +942,7 @@ RESPONSIVE
 
     /* Image 1 */
     0% {
-        background-image: url("image/bg1.jfif");
+        background-image: url("image/blog6.jpg");
         background-position: left center;
     }
 
