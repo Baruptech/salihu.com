@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+<header>
+    <nav class="navbar">
+
+        <!-- Logo -->
+      <a href="index.html" class="logo">
+    <img src="image/logo.png" alt="Salihu Logo">
+
+    <div class="logo-text">
+        <span>Salihu</span>
+        <small>Web Developer</small>
+    </div>
+</a>
+
+        <!-- Menu -->
+        <ul class="nav-links" id="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <li>
+                <a href="contact.html" class="hire-btn">
+                    Hire Me
+                </a>
+            </li>
+        </ul>
+
+        <!-- Mobile Menu -->
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+    </nav>
+</header>
+
+
+
+<section class="page-banner">
+
+    <div class="banner-content">
+
+        <h1>Contact Me</h1>
+
+        <p>Home / Contact</p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact">
+
+    <div class="contact-info">
+
+        <h2>Get In Touch</h2>
+
+        <p>
+            Have a project in mind? Feel free to contact me.
+            I'm always available for freelance work,
+            collaborations and business inquiries.
+        </p>
+
+        <div class="info-box">
+            <h3>📍 Address</h3>
+            <p>Kaduna, Nigeria</p>
+        </div>
+
+        <div class="info-box">
+            <h3>📧 Email</h3>
+            <p>salihu@example.com</p>
+        </div>
+
+        <div class="info-box">
+            <h3>📞 Phone</h3>
+            <p>+234 800 000 0000</p>
+        </div>
+
+        <div class="info-box">
+            <h3>🕒 Working Hours</h3>
+            <p>Monday - Saturday (8:00 AM - 6:00 PM)</p>
+        </div>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2>Send Message</h2>
+
+        <form>
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="6" placeholder="Your Message"></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<section class="map">
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb="
+        loading="lazy">
+    </iframe>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="contact-faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+
+        <h3>How quickly do you respond?</h3>
+
+        <p>I usually reply within 24 hours.</p>
+
+    </div>
+
+    <div class="faq-item">
+
+        <h3>Do you work remotely?</h3>
+
+        <p>Yes, I work with clients from anywhere in the world.</p>
+
+    </div>
+
+    <div class="faq-item">
+
+        <h3>Do you redesign websites?</h3>
+
+        <p>Yes, I redesign old websites with a modern look.</p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="cta">
+
+    <h2>Let's Build Something Amazing</h2>
+
+    <p>
+        Ready to start your next project? Let's talk today.
+    </p>
+
+    <a href="mailto:salihu@example.com">
+        Email Me
+    </a>
+
+</section>
+
+<hr>
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>My Website</h2>
+            <p>
+                We create beautiful websites that help businesses
+                grow online. Thank you for visiting our website.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bout.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +234 800 000 0000</p>
+            <p>Location: Nigeria</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script>
+
+
+
+
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+menuToggle.onclick = function () {
+
+    navLinks.classList.toggle("active");
+
+    if(navLinks.classList.contains("active")){
+        menuToggle.innerHTML="✕";
+    }else{
+        menuToggle.innerHTML="☰";
+    }
+
+}
+</script>
+</body>
+</html>                           
