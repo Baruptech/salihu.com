@@ -942,39 +942,39 @@ RESPONSIVE
 
     /* Image 1 */
     0% {
-        background-image: url("./image/bg1.jfif");
+        background-image: url("image/bg1.jfif");
         background-position: left center;
     }
 
     30% {
-        background-image: url("./image/bg1.jfif");
+        background-image: url("image/bg1.jfif");
         background-position: right center;
     }
 
     /* Image 2 */
     33% {
-        background-image: url("./image/bg2.jpeg");
+        background-image: url("./bg2.jpeg");
         background-position: left center;
     }
 
     63% {
-        background-image: url("./image/bg2.jpeg");
+        background-image: url("./bg2.jpeg");
         background-position: right center;
     }
 
     /* Image 3 */
     66% {
-        background-image: url("./image/bg3.jfif");
+        background-image: url("./bg3.jfif");
         background-position: left center;
     }
 
     96% {
-        background-image: url("./image/bg3.jfif");
+        background-image: url("./bg3.jfif");
         background-position: right center;
     }
 
     100% {
-        background-image: url("./image/bg1.jfif");
+        background-image: url("./bg1.jfif");
         background-position: left center;
     }
 }
